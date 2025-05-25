@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+   { name = "Zuoming Wang", email = "zw765@cornell.edu"},
+]
+name = "chem"
+version = "0.0.1"
+dependencies = [
+   "numpy",
+   "matplotlib",
+   "pytest",
+   "scipy",
+   "tqdm",
+]
